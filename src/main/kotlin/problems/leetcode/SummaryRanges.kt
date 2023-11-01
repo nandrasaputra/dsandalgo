@@ -26,7 +26,3 @@ object SummaryRanges {
         return result
     }
 }
-
-fun main() {
-    print( SummaryRanges.summaryRanges(intArrayOf(0,2,3,4,6,8,9)))
-}
