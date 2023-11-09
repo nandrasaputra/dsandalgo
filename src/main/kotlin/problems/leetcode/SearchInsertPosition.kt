@@ -4,7 +4,6 @@ import kotlin.math.round
 
 object SearchInsertPosition {
     fun searchInsert(nums: IntArray, target: Int): Int {
-        if (nums.size == 1) return nums.first()
         var maxPointer = nums.size - 1
         var minPointer = 0
         while (minPointer <= maxPointer) {
