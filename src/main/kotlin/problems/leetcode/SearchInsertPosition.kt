@@ -21,7 +21,3 @@ object SearchInsertPosition {
         return minPointer
     }
 }
-
-fun main() {
-    print(SearchInsertPosition.searchInsert(intArrayOf(1,3,5,6), 0))
-}
